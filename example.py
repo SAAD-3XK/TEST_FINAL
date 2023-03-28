@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-
+# using dataclass makes initialization in classes easier
 @dataclass
 class Person:
 	f_name: str
@@ -13,4 +13,3 @@ f=input("Enter first name: ")
 l=input("Enter last name: ")
 my_name=Person(f,l)
 my_name.call_name()
-
